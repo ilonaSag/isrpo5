@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+*{
+    font-family: 'Inter';
+}
+body{
+    margin: 0;
+}
+
+/*хедер*/
+header{
+    background: url(../img/header_back.jpg);
+    padding: 0 10%;
+    height: 100vh;
+    color: white;
+    background-size: cover;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+}
+.image{
+    width: 24px;
+    height: 24px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 150px;
+}
+h2{
+    font-size: 32px;
+    font-style: medium;
+}
+h1{
+    font-size: 96px;
+    font-style: bold;
+}
+.texth1{
+    margin-bottom: 30px;
+}
+.but{
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+}
+
+/*содержимое*/
+.container{
+    background-color: white;
+    padding: 0 10%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.num{
+    font-size: 64px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.gr{
+    color: gray;
+}
+.big{
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 60px;
+}
+.left{
+    flex-direction: column;
+    margin-top: 0px;
+}
+.right{
+    flex-direction: column;
+    margin-top: 0px;
+}
+.video{
+        padding: 0 10%;
+    height: 100vh;
+}
+#vid{
+    width: 100%;
+    height: 600px;
+}
+
+.container3{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.texth3{
+    color: gray;
+    font-size: 24px;
+    font-weight: 400;
+}
+.but2{
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-bottom: 209px;
+}
+.but3{
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-bottom: 89px;
+}
+.square{
+    width: 570px;
+    height: 400px;
+}
+.part1{
+    margin-top: 89px;
+    display: flex;
+    flex-direction: column;
+}
+.texts2{
+    margin-top: 209px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+
+.container4{
+    margin-top: 190px;
+    padding: 0 10%;
+    gap: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 190px;
+}
+.text2{
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+}
